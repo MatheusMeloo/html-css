@@ -3,4 +3,4 @@
 
  Criando sites e gerenciando meus repositórios!
 
-<a href = "https://matheusmeloo.github.io/html-css/exercicios/ex002/index.html"> Executar o exercicio 002</a>
+<a href = "https://matheusmeloo.github.io/html-css/exercicios/ex001/index.html"> Executar o exercicio 001</a>
