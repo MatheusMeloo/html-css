@@ -10,7 +10,7 @@
     --font3: 'Sriracha', cursive;
 }
 *{
-    margin: 0 px;
+    margin: auto;
     padding: 0px;
     font-size: 1em;
 }
@@ -19,7 +19,7 @@ html, body{
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font1);
-    
+
 }
 
 header{
