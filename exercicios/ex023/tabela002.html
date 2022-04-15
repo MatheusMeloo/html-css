@@ -10,6 +10,13 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         table{
             width: 500px;
             border-collapse: collapse;
@@ -20,11 +27,24 @@
             padding: 10px;
         }
 
+        tbody > tr:nth-child(odd){
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgrey;
+        }
+
         thead, tfoot{
             background-color: gray;
             color: white;
         }
 
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
         td.num{
             text-align: right;
         }
@@ -44,10 +64,15 @@
                 tr, td, th
     -->
     <table>
+
+        <caption>
+            Lista de unidades federativas do Brasil por população
+        </caption>
+
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
 
@@ -191,7 +216,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num">38 209 323</td>
             </tr>
         </tfoot>
