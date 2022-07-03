@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html,body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+body {
+  background-color: black;
+  background-image: url(image/espaco.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+div#astro{
+  text-align: center;
+}
